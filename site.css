@@ -1,0 +1,33 @@
+:root { color-scheme: dark; }
+body {
+  margin: 0;
+  background: #182e36;
+  color: #eee5c9;
+  font: 18px/1.55 system-ui, sans-serif;
+}
+header, main { max-width: 42rem; margin: auto; }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1.4rem 1.25rem 0;
+}
+.brand {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.08em;
+  color: #eed49d;
+}
+nav { display: flex; gap: 1rem; }
+a { color: #eac987; }
+nav a[aria-current="page"] { color: #eee5c9; text-decoration: none; }
+main { padding: 0.5rem 1.25rem 3rem; }
+h1, h2 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  color: #eed49d;
+  line-height: 1.2;
+}
+.lede { font-size: 1.15rem; }
